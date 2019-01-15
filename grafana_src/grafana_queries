@@ -1,0 +1,7 @@
+
+For defect aging
+SELECT
+  event_time as time_sec,
+  id as value,
+ aging as metric
+FROM defect_aging
